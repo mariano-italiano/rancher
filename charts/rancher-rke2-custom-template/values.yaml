@@ -1,10 +1,8 @@
 cluster:
   labels:
-    type: "custom"
     imported: "no"
   annotations:
     createdFrom: "rke2-custom-template"
 
 kubernetesVersion: ""
-
 networkPlugin: calico
