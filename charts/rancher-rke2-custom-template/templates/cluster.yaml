@@ -29,7 +29,7 @@ spec:
       snapshotRetention: 5
       snapshotScheduleCron: 0 */5 * * *
     machineGlobalConfig:
-      cni: calico
+      cni: {{ .Values.networkPlugin }}
       disable-kube-proxy: false
       etcd-expose-metrics: false
     machineSelectorConfig:
